@@ -1,0 +1,130 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196f3;
+    --contrast-color: #ffffff;
+    --grey-bg-color: #2F303A;
+
+}
+
+body {
+color: var(--title-text-color);
+background-color: var(--contrast-color);
+}
+
+.logo {
+color: #000000;
+text-decoration: none;
+ }
+
+.logo-web {
+    color: var(--accent-color);  
+}
+
+ .list {
+    list-style: none;
+ }
+
+ /*  Site nav */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+ }
+
+ .site-nav .link:hover, 
+ .site-nav .link:focus {
+     color: var(--accent-color);
+ }
+
+ .site-nav .link.current {
+     color: var(--accent-color);
+ }
+
+.contact {
+ color: var(--title-text-color);
+ text-decoration: none;
+ font-style: normal;
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+background-color: var(--grey-bg-color);
+}
+
+ .hero-title {
+color: var(--contrast-color);
+ }
+
+ /* Section */
+
+ .section-title {
+    color: var(--primary-text-color);
+ }
+
+ /* Features */
+
+ .feature-list .title {
+    color: var(--primary-text-color);
+}
+
+ .feature-list {
+    list-style: none;
+ }
+
+.name {
+    color: var(--primary-text-color);
+}
+
+/* Button */
+
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--contrast-color);
+}
+
+.button-primary {
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
+}
+
+.button-secondary {
+    color: var(--primary-text-color);
+    background-color: var(--contrast-color);
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--contrast-color);
+    background-color: #2196f3;
+}
+
+/* Наша команда */
+
+.comand {
+background-color: #F5F4FA;
+}
+
+/* Підвал */
+
+.section-footer {
+    background-color: var(--grey-bg-color);
+}
+
+.logo-footer {
+color: var(--contrast-color);
+text-decoration: none;
+}
+
+.contact.footer {
+    color: var(--contrast-color);
+    font-style: normal;
+}  
+
+.service {
+    color: #212121;
+}
