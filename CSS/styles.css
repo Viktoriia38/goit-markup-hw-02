@@ -8,17 +8,33 @@
 }
 
 body {
-color: var(--title-text-color);
-background-color: var(--contrast-color);
+    color: var(--title-text-color);
+    background-color: var(--contrast-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
 }
 
+/* Logo */
+
 .logo {
-color: #000000;
-text-decoration: none;
+    color: #000000;
+    text-decoration: none;
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
  }
 
 .logo-web {
-    color: var(--accent-color);  
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
  .list {
@@ -28,7 +44,13 @@ text-decoration: none;
  /*  Site nav */
 
 .site-nav .link {
-    color: var(--primary-text-color);
+        color: var(--primary-text-color);
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
  }
 
  .site-nav .link:hover, 
@@ -41,9 +63,13 @@ text-decoration: none;
  }
 
 .contact {
- color: var(--title-text-color);
- text-decoration: none;
- font-style: normal;
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contact:hover,
@@ -57,27 +83,58 @@ background-color: var(--grey-bg-color);
 }
 
  .hero-title {
-color: var(--contrast-color);
+    color: var(--contrast-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
  }
 
  /* Section */
 
  .section-title {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
  }
 
  /* Features */
 
  .feature-list .title {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
  .feature-list {
     list-style: none;
  }
 
+.description {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Comand */
+
 .name {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.17;
 }
 
 /* Button */
@@ -90,11 +147,21 @@ color: var(--contrast-color);
 .button-primary {
     color: var(--contrast-color);
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .button-secondary {
     color: var(--primary-text-color);
     background-color: var(--contrast-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
 }
 
 .button-secondary:hover,
@@ -105,26 +172,67 @@ color: var(--contrast-color);
 
 /* Наша команда */
 
-.comand {
+.team {
 background-color: #F5F4FA;
 }
 
 /* Підвал */
 
-.section-footer {
+.section-bottom {
     background-color: var(--grey-bg-color);
 }
 
-.logo-footer {
+.logo-bottom {
 color: var(--contrast-color);
 text-decoration: none;
+font-family: Raleway, cursive;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
 }
 
-.contact.footer {
+.location {
     color: var(--contrast-color);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
     font-style: normal;
 }  
 
-.service {
+
+ 
+.communication {
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.communication:hover,
+.communication:focus {
+    color: var(--accent-color);
+}
+
+
+/* Second page - Main */
+
+.product {
     color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.product-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-type {
+font-size: 16px;
+line-height: 1.87;
 }
